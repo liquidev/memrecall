@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+title: THE LAST SINE WAVE
+color: [0, 255, 255]
+background: sine
+tiles: |
+  SSSSSSSSSSSSSSSS
+  VVVSVVVVVVVVSVVV
+     S        S---
+  SSSS--------S
+    .          .
+    .          .
+    .          .
+    .          .
+  SSSS--------S
+     S        S---
+  VVVSVVVVVVVVSVVV
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: enemy
+    pos: [4, 5]
+    properties:
+      sprite: triangle
+      movement: linearRight
+  - kind: enemy
+    pos: [8, 6]
+    properties:
+      sprite: triangle
+      movement: linearRight

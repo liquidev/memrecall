@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: THE BOUNTY SPLIT
+color: [255, 0, 255]
+background: lines
+tiles: |
+  SS   SSSSSSSSSSS
+  SS S
+  SS
+  SS
+  SS       VV
+  SSSSS  SSSSS  SS
+  SS
+  SS
+  SS
+  SSSSSS    SSSSSS
+  SS            VV
+  SS            SS
+entities:
+  - kind: checkpoint
+    pos: [12, 7]

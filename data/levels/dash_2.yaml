@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+title: DOTS ARE COOL
+color: [0, 255, 0]
+background: lab
+tiles: |
+  SSSSSVVVVVVVVVVS
+  S              S
+  S              S
+  S  SS          S
+  S  S           S
+     SVVVVVVV    S
+     SSSSSSSS    S
+     S           S
+     S          SS
+     S           S
+  SSSS   VVVVVVVVS
+  SSSS   SSSSSSSSS
+entities: []

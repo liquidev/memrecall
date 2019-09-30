@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+title: LASER LIGHTSHOW
+color: [0, 255, 255]
+background: lines
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+      V      V
+
+
+
+
+
+      V      V
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: enemy
+    pos: [4, 6]
+    properties:
+      sprite: circle
+      movement: linearDown
+  - kind: enemy
+    pos: [11, 8]
+    properties:
+      sprite: circle
+      movement: linearUp

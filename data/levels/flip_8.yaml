@@ -1,0 +1,33 @@
+%YAML 1.2
+---
+title: THE GOLDEN GATE
+color: [255, 255, 0]
+background: sine
+tiles: |
+  SSSSSSSSSSSSSSSS
+  VV     VVVVVVVVV
+  --SSSSS---------
+    SSSVV
+
+
+
+
+           VVSSS
+  ---------SSSSS--
+  VVVVVVVVV     VV
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: enemy
+    pos: [7.5, 5]
+    properties:
+      sprite: circle
+      movement: linearUp
+  - kind: enemy
+    pos: [7.5, 6]
+    properties:
+      sprite: circle
+      movement: linearDown
+  - kind: checkpoint
+    pos: [3, 5]
+  - kind: checkpoint
+    pos: [12, 6]

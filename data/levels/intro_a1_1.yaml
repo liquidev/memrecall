@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+title: HARD WORK, THE PATH TO SUCCESS
+color: [0, 255, 127]
+background: lines
+tiles: |
+  S              S
+  S              S
+  S   S          S
+  S          S   S
+  S              S
+  S    S         S
+  S         S    S
+  S              S
+  S            S S
+  S              S
+  S              S
+  SS   SSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [6, 9]
+  - kind: enemy
+    pos: [1, 7]
+    properties:
+      sprite: square
+      movement: linearRight
+  - kind: enemy
+    pos: [6, 2]
+    properties:
+      sprite: triangle
+      movement: linearRight

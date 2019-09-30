@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+title: NUCLEAR REACTOR
+color: [0, 0, 255]
+background: sine
+tiles: |
+  SSSSSSSSSSSS   S
+  SS         S   S
+  SSSSSSS    S   S
+  SSVVVVV    S   S
+  SV    |    S   S
+  SV    |    S   S
+  SV    |    S   S
+  SV    S----S   S
+  SV    |    S   S
+  SV    |        S
+  SV    |        S
+  SSVVVVSSSSSS   S
+entities:
+  - kind: checkpoint
+    pos: [9, 9]
+  - kind: atom
+    pos: [2, 1]

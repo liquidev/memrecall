@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+title: I HOPE YOU LIKED THE LAB
+color: [0, 255, 0]
+background: lab
+tiles: |
+  SSSSSSSSSSSS   S
+  VVVVVVVVVVVS   S
+    ..       S   S
+  -----------S   S
+             V   S
+                 S
+                 S
+             V   S
+  -----------S   S
+    ..       S---S
+  VVVVVVVVVVVSVVVS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: enemy
+    pos: [2, 5]
+    properties:
+      sprite: triangle
+      movement: linearDown
+  - kind: enemy
+    pos: [3, 6]
+    properties:
+      sprite: triangle
+      movement: linearDown

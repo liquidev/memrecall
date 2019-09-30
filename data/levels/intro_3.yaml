@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: AERIAL FAITH HOLE
+color: [255, 0, 255]
+background: lines
+tiles: |
+  SSSSSSS  SSSSSSS
+                SS
+                SS
+                SS
+  SS            SS
+  SS            SS
+  SSVVV      VVVSS
+  SSSSS      SSSSS
+  SSVVV  VV  VVVSS
+  SS     SS     SS
+  SS     VV     SS
+  SS            SS
+entities:
+  - kind: checkpoint
+    pos: [1, 2]

@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: GET READY TO FLIP
+color: [255, 0, 0]
+background: sine
+tiles: |
+  SS            SS
+  SS            SS
+  SS            SS
+  SS            SS
+  SS            SS
+  SS            SS
+  SS         SSSSS
+  SS
+  SS
+  SS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: flipPack
+    pos: [12, 8]

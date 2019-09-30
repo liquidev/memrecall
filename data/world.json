@@ -1,0 +1,12 @@
+[
+  ["intro_a1_2", "intro_a2", "_",        "_",        "intro_a4"],
+  ["intro_a1_1", "intro_0",  "intro_1",  "intro_2",  "intro_3"],
+  ["intro_8",    "intro_7",  "intro_6",  "intro_5",  "intro_4"],
+  ["flip_0",     "flip_1",   "flip_2",   "flip_3",   "flip_4"],
+  ["_",          "_",        "_",        "_",        "flip_5"],
+  ["flip_10",    "flip_9",   "flip_8",   "flip_7",   "flip_6"],
+  ["dash_0",     "dash_1",   "dash_2",   "_",        "_"],
+  ["dash_a_2",   "dash_a_1", "dash_3",   "dash_b_1", "dash_b_2"],
+  ["dash_a_3",   "dash_a_4", "dash_end", "dash_b_4", "dash_b_3"],
+  ["_",          "_",        "end",      "_",        "_"]
+]

@@ -1,0 +1,22 @@
+%YAML 1.2
+---
+title: DON'T TOUCH THE SPIKES
+hint:
+  text: "Up arrow to jump"
+  pos: taTop
+color: [0, 255, 255]
+background: lines
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+
+
+
+
+
+
+  SSSSSVVVVVVSSSSS
+  SSSSSSSSSSSSSSSS
+entities: []

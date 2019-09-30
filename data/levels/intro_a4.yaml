@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: THE ATOMIC SHRINE
+color: [73, 2, 252]
+background: lines
+tiles: |
+  SSSSSSSSSSSSSSSS
+  S              S
+  S              S
+  S              S
+  S              S
+  S              S
+  S              S
+  S              S
+  S   SSSSSSSS   S
+  S              S
+  S              S
+  SSSSSSS  SSSSSSS
+entities:
+  - kind: atom
+    pos: [7.5, 4]

@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+title: THE FLIP MAZE
+color: [0, 0, 255]
+background: sine
+tiles: |
+  SSSSSSSSSSSSSSSS
+  S     S       VS
+  S     S       VS
+  S  S     S    VS
+  S  S     S     S
+  S  SSSSSSSSS   S
+  S  S           S
+     S  SSSSSSSSSS
+     S
+     S
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+entities: []

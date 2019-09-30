@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+title: UH OH, A SPIKE PIT
+color: [255, 0, 255]
+background: lab
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSVVVVVVVVVVSSS
+  S
+  S
+
+
+
+  SSSVVVVVVVVVVSSS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [1, 8]
+  - kind: checkpoint
+    pos: [14, 8]

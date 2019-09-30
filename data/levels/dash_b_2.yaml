@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+title: MORE BOUNCY THINGS, HOW NICE
+color: [0, 255, 255]
+background: lab
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SVVVVSSSSSSVVVVS
+  S----SSSSSS----S
+  S    SSSSSS    S
+  S    SSSSSS    S
+  S    SSSSSS    S
+  S    VSSSSS    S
+        VVVVV    S
+                 S
+      V          S
+  S---SVVVVVVS   S
+  SSSSSSSSSSSS   S
+entities:
+  - kind: checkpoint
+    pos: [2, 8]
+  - kind: checkpoint
+    pos: [13, 8]

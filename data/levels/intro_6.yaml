@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: CHOOSE YOUR PATH
+color: [0, 255, 0]
+background: lines
+tiles: |
+  SSSSSSSSSSSSSSSS
+               VSS
+               VSS
+               VSS
+
+  SSSS
+
+        S
+
+  S   S   S
+  VVVVVVVVV
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [13, 9]

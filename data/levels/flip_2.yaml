@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+title: GRAVITY SPIKES
+color: [0, 255, 255]
+background: sine
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SVVVSSSVVVVV
+  S
+  S
+  S            SSS
+  S       SSS    S
+  S              S
+  S              S
+                 S
+                 S
+  SSSVVVVVSSSVVVVS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [2, 8]
+  - kind: checkpoint
+    pos: [14, 2]

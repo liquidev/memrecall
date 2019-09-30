@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+title: WHERE'S THE TIME MACHINE?
+hint:
+  text: "Left/right arrows to move"
+  pos: taBottom
+color: [255, 0, 0]
+background: lines
+tiles: |
+  S   SSSSSSSSSSSS
+  S              S
+  S              S
+  S              S
+  S
+  S
+  S
+  S
+  S
+  S
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: player
+    pos: [2, 9]

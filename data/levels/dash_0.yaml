@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: LOOKS LIKE A BUILD ARTIFACT
+color: [255, 0, 0]
+background: lab
+tiles: |
+  SSSS        SSSS
+  S              S
+  S              S
+  S              S
+  S   SSSSSSSS   S
+  S              S
+  S              S
+  S
+  S
+  S
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: dashPack
+    pos: [8.5, 7]

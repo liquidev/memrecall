@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+title: IT DOESN'T MATTER ANYWAYS
+color: [255, 0, 0]
+background: lines
+tiles: |
+  SSSSSSSSSSSSSSSS
+
+
+
+    VV  VV  VV
+  SSSSSSSSSSSSSSSS
+
+
+        S
+  SSS       S    S
+  VVVVVVVVVVVVVVVV
+  SSSSSSSSSSSSSSSS
+entities: []

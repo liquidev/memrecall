@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: THE GRAVITY PLANE EXPERIMENT
+color: [0, 255, 0]
+background: sine
+tiles: |
+  SSSSSSSSSSSSSSSS
+         SS
+         SS
+         SS
+  S      VV      S
+  S              S
+  S              S
+  S              S
+  S              S
+  S--------------S
+  SVVVVVVVVVVVVVVS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [14, 2]

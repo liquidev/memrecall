@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+title: CUBIC HERMITE SPLINE
+color: [255, 255, 0]
+background: sine
+tiles: |
+  SSSSSSSSSSSSSSSS
+      VVVVVVV    S
+       |   |     S
+       |   |     S
+  S    |   |     S
+  S    |   |     S
+  S    |   |     S
+  S    |   |     S
+  S    |   |     S
+  S    |   |     S
+  S   VVVVVVV    S
+  SSSSSSSSSSSS   S
+entities: []

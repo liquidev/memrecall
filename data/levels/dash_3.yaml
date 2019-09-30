@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: ALPHA OR BETA?
+color: [0, 0, 255]
+background: lab
+tiles: |
+  SSSS   SSSSSSSSS
+  SSSS   SSSSSSSSS
+  SSSS   SSSSSSSSS
+
+
+
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [5, 4]

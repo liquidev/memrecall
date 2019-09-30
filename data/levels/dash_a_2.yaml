@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: TWIST IT UP
+color: [255, 255, 0]
+background: lab
+tiles: |
+  SSSSSSSSSSSSSSSS
+  S              S
+  S              S
+  S  SVVVVVVVVS
+  S  SSSSSSSSSS
+  S           S
+  SSSSSS   SSSSSSS
+  S        SSSSSSS
+  S        SSSSSSS
+  S        SSSSSSS
+  S   VVVVVSSSSSSS
+  S   SSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [14, 4]

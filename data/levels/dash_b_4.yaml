@@ -1,0 +1,49 @@
+%YAML 1.2
+---
+title: THE LAST STRAW
+color: [0, 255, 0]
+background: lab
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SSSSVVVVVVVVVVVV
+  SSSS   ......
+  SSSS------------
+
+
+
+
+  SSSS------------
+  SSSS   ......
+  SSSSVVVVVVVVVVVV
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: enemy
+    pos: [7, 4]
+    properties:
+      sprite: square
+      movement: linearDown
+  - kind: enemy
+    pos: [8, 4.5]
+    properties:
+      sprite: square
+      movement: linearDown
+  - kind: enemy
+    pos: [9, 4.5]
+    properties:
+      sprite: square
+      movement: linearDown
+  - kind: enemy
+    pos: [10, 5]
+    properties:
+      sprite: square
+      movement: linearDown
+  - kind: enemy
+    pos: [11, 5]
+    properties:
+      sprite: square
+      movement: linearDown
+  - kind: enemy
+    pos: [12, 5.5]
+    properties:
+      sprite: square
+      movement: linearDown

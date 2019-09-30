@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: EDGE OF THE DOWNWARD SPIRAL
+color: [255, 255, 0]
+background: sine
+tiles: |2
+   SSS        SSSS
+    VS        SVVV
+    VS        S
+    VS        SSSS
+    VS
+    VS
+    VS
+    VS
+    VS        SSSS
+    VS        S
+    VS        SVVV
+   SSS        SSSS
+entities:
+  - kind: checkpoint
+    pos: [13, 6]

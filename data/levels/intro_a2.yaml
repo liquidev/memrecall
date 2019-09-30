@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: CURIOSITY KILLED THE CAT
+color: [2, 173, 252]
+background: lab
+tiles: |
+  S   SSSSSSSSSSSS
+  S   SSSSSSSSSSSS
+  S   SSSSSSSSSSSS
+  S   SSSSSSSSSSSS
+  S   SSSSSSSSSSSS
+  S   SSSSSSSSSSSS
+  S   SSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  S        SSSSSSS
+  S        SSSSSSS
+  S        SSSSSSS
+  S   SSSSSSSSSSSS
+entities:
+  - kind: atom
+    pos: [6, 9]

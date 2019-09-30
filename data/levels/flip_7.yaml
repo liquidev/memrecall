@@ -1,0 +1,39 @@
+%YAML 1.2
+---
+title: WELL, NOT REALLY
+color: [0, 255, 0]
+background: sine
+tiles: |
+  SSSSSSSSSSSSSSSS
+  VVVVVVVVVVVVVVVV
+  ----------------
+
+
+
+
+
+
+  ----------------
+  VVVVVVVVVVVVVVVV
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: enemy
+    pos: [4, 4]
+    properties:
+      sprite: square
+      movement: linearUp
+  - kind: enemy
+    pos: [6, 5]
+    properties:
+      sprite: square
+      movement: linearUp
+  - kind: enemy
+    pos: [9, 6]
+    properties:
+      sprite: square
+      movement: linearUp
+  - kind: enemy
+    pos: [11, 7]
+    properties:
+      sprite: square
+      movement: linearUp

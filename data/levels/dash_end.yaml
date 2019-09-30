@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+title: WAITING ROOM
+color: [255, 0, 0]
+background: lab
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SVVVVVSSSSVVVVVS
+  S     VVVV     S
+
+
+   SSS        SSS
+   SSSVV    VVSSS
+  SSSSSS    SSSSSS
+  SSSSSS    SSSSSS
+  SSSSSS    SSSSSS
+  SSSSSS    SSSSSS
+entities:
+  - kind: checkpoint
+    pos: [2, 4]
+  - kind: checkpoint
+    pos: [13, 4]

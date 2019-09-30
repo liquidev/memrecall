@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+title: IT'S WORTH THE CHALLENGE
+color: [0, 255, 127]
+background: lines
+tiles: |
+  SSSSSSSSSSSSSSSS
+  S              S
+  S              S
+  S      VV      S
+  SS    SSSSSSSSSS
+  S     SSSSSSSSSS
+  S              S
+  SS             S
+  S             VS
+  SSSSSSSSSSS   VS
+  S             VS
+  SSS   SSSSSSSSSS
+entities:
+  - kind: enemy
+    pos: [1, 8]
+    properties:
+      sprite: triangle
+      movement: linearLeft
+  - kind: enemy
+    pos: [5, 6]
+    properties:
+      sprite: triangle
+      movement: linearRight
+  - kind: atom
+    pos: [13, 2]

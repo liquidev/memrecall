@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: THE TIME MACHINE CHAMBER
+color: [255, 0, 0]
+background: lab
+tiles: |
+  SSSSSS    SSSSSS
+  S              S
+  S SSSSSSSSSSSS S
+  S S          S S
+  S S          S S
+  S S          S S
+  S S          S S
+  S S          S S
+  S S          S S
+  S SSSSS  SSSSS S
+  S              S
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: timeMachine
+    pos: [7.5, 5.5]

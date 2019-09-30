@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+title: CHECKING THE POINTS
+hint:
+  text: "Checkpoints save your progress"
+  pos: taTop
+color: [0, 255, 0]
+background: lines
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SS
+  SS
+  SS
+              SSSS
+                SS
+                SS
+           S    SS
+                SS
+                SS
+  SSSSSSVVVVVVVVSS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [4, 8]

@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+title: BETA MEANS IMPROVEMENT
+color: [255, 255, 0]
+background: lab
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+  SSSSSSSSSSSSSSSS
+             SSSSS
+             SSSSS
+             SSSSS
+  SSSSSS     VVVVV
+  SSSSSS
+  SSSSSS
+  SSSSSS
+  SSSSSSVVVVVVVVSS
+  SSSSSSSSSSSSSSSS
+entities: []

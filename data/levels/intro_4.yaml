@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: IT'S PERFECTLY SAFE
+color: [255, 255, 0]
+background: lines
+tiles: |
+  SS            SS
+  SS            SS
+  SS            SS
+  SS VV      VV SS
+  SS SS      SS SS
+  SS VV      VV SS
+  SS            SS
+                SS
+                SS
+                SS
+                SS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [2, 9]

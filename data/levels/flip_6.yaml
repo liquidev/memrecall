@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: THE GRAVITRON?
+color: [255, 0, 255]
+background: sine
+tiles: |
+  SSSSSSSSSSSS   S
+  VVVVVVVVVVVS   S
+  -----------V   S
+                 S
+                 S
+                 S
+                 S
+                 S
+                 S
+  ---------------S
+  VVVVVVVVVVVVVVVS
+  SSSSSSSSSSSSSSSS
+entities:
+  - kind: checkpoint
+    pos: [5, 5.5]
