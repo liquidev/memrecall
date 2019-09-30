@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+title: REWARD FOR THE BACKTRACKER
+color: [252, 102, 2]
+background: lines
+tiles: |
+  SSSSSSSSSSSSSSSS
+  SS             S
+  SS             S
+  SS             S
+  SSSSSSSSSSSS   S
+  SSSSSSSSSSSS   S
+  SS    VVVVVV   S
+  SS             S
+  SS             S
+  SS            SS
+  SS   SVVVVVVVVVS
+  SS   SSSSSSSSSSS
+entities:
+  - kind: atom
+    pos: [3, 2]
