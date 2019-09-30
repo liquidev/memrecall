@@ -17,6 +17,9 @@ Should be as straightforward as:
 nimble install
 nim c src/memrecall
 ```
+Keep in mind that
+[rapid's dependencies](https://github.com/liquid600pgm/rapid/#installing) also
+need to be present.
 
 ## Contributing
 
