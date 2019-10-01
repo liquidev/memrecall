@@ -14,6 +14,7 @@ import playerdef
 import res
 import sounds
 import state
+import usersettings
 
 import enemyimpl
 import playerimpl
@@ -23,6 +24,7 @@ proc main() =
     echo "yo, commandline"
     echo "you just found an easter egg!"
 
+  initSettings()
   initRes()
   initSound()
   initWorld()

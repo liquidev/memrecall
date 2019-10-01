@@ -5,6 +5,8 @@ import rapid/audio/sampler
 import rapid/audio/samplers/mixer
 import rapid/audio/samplers/wave
 
+import usersettings
+
 var
   audio*: RAudioDevice
   mix*: RMixer
@@ -59,7 +61,7 @@ proc playSound*(sound: RWave) =
   sound.play()
 
 proc initSound*() =
-  audio = newRAudioDevice("_MEM.RECALL()")
+  audio = newRAudioDevice("_MEM.RECALL()", latency = settings.audioLatency)
   mix = newRMixer()
 
   musicEscape = loadMusic("escape_start.ogg", "escape_loop.ogg")
