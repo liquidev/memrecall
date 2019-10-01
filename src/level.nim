@@ -6,6 +6,7 @@ import strutils
 import tables
 
 import rapid/world/aabb
+import rapid/world/sprite
 import rapid/world/tilemap
 import rapid/gfx/text
 import rapid/gfx
@@ -203,7 +204,14 @@ proc drawWorld(ctx: RGfxContext, world: World, step: float) =
     particles.draw(ctx)
 
     ctx.color = gray(255)
-    world.drawSprites(ctx, step)
+    for s in world.sprites:
+      let
+        xmin = float(lx * 128) - s.width
+        ymin = float(ly * 96) - s.height
+        xmax = xmin + 128 + s.width
+        ymax = ymin + 96 + s.height
+      if s.pos.x in xmin..xmax and s.pos.y in ymin..ymax:
+        s.draw(ctx, step)
 
 proc initWorld*() =
   var levelRefs: seq[seq[string]] =
