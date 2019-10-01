@@ -15,7 +15,7 @@ type
     stateEnd
 
 var
-  gameState* = stateGame
+  gameState* = stateTitle
 
 var
   titleWords = @["NO", "TITLE"]
