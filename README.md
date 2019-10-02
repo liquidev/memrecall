@@ -16,12 +16,14 @@ A platformer for Open Jam 2019.
 
 Should be as straightforward as:
 ```
-nimble install
-nim c src/memrecall
+nimble build
 ```
 Keep in mind that
 [rapid's dependencies](https://github.com/liquid600pgm/rapid/#installing) also
 need to be present.
+**Warning:** There's a bug somewhere in nimterop's wrapping process that causes
+it to not execute `git fetch` when GLFW sources are first pulled from GitHub.
+
 
 ## Contributing
 
