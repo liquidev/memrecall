@@ -1,0 +1,5 @@
+*.trace
+*.exe
+*.tar.gz
+*.zip
+src/memrecall
