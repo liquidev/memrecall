@@ -2,7 +2,7 @@
 # Package
 #--
 
-version       = "1.0.2"
+version       = "1.0.3"
 author        = "liquid600pgm"
 description   = "Go back in time. Make it a better future. " &
                 "A platformer for Open Jam 2019"
