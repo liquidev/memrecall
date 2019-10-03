@@ -23,7 +23,8 @@ Keep in mind that
 need to be present.
 **Warning:** There's a bug somewhere in nimterop's wrapping process that causes
 it to not execute `git fetch` when GLFW sources are first pulled from GitHub.
-
+The solution is simple: go to rapid's directory, and navigate to `src/rapid/lib/glfw_src`.
+Then, execute `git fetch`. Running `nimble build` another time works too.
 
 ## Contributing
 
