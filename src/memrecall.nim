@@ -31,7 +31,8 @@ proc main() =
 
   randomize()
 
-  musicEscape.play()
+  if settings.music:
+    musicEscape.play()
 
   surface.loop:
     draw ctx, step:

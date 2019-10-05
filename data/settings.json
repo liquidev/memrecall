@@ -1,3 +1,4 @@
 {
-  "audioLatency": 0.2
+  "audioLatency": 0.2,
+  "music": true
 }

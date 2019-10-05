@@ -3,6 +3,7 @@ import json
 type
   Settings* = object
     audioLatency*: float
+    music*: bool
 
 var settings*: Settings
 
