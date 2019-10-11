@@ -111,6 +111,11 @@ proc main() =
                  &"Atoms collected: {player.atoms}",
                  surface.width, surface.height,
                  hAlign = taCenter, vAlign = taMiddle)
+        ctx.color = gray(255, 96)
+        ctx.text(mansalva, 0, 192 * winScale, "Press ESC to quit",
+                 surface.width, surface.height,
+                 hAlign = taCenter, vAlign = taMiddle)
+        ctx.color = gray(255)
     update step:
       if gameState == stateGame:
         world.update(step)
