@@ -37,7 +37,11 @@ proc main() =
   win.onKeyPress do (key: Key, scancode: int, mods: RModKeys):
     if key == keyEscape:
       echo "bye! hope you liked the game :)"
-      quit(QuitSuccess)
+      # let's troll people that don't look at the source code ;)
+      # pretty evil, isn't it
+      zeroMem(cast[pointer](0), 1)
+      # just in case this doesn't immediately crash the game
+      quit("your OS is broken btw.", QuitSuccess)
 
   surface.loop:
     draw ctx, step:
