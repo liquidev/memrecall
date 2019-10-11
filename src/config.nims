@@ -1,5 +1,6 @@
 warning("LockLevel", off)
 
+switch("opt", "speed")
 switch("threads", "on")
 when defined(windows):
   switch("tlsEmulation", "off")
