@@ -16,6 +16,8 @@ import sounds
 import state
 import usersettings
 
+# these imports are actually used, they contain all method implementations
+# for sprites
 import enemyimpl
 import playerimpl
 
