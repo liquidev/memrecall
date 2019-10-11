@@ -34,6 +34,11 @@ proc main() =
   if settings.music:
     musicEscape.play()
 
+  win.onKeyPress do (key: Key, scancode: int, mods: RModKeys):
+    if key == keyEscape:
+      echo "bye! hope you liked the game :)"
+      quit(QuitSuccess)
+
   surface.loop:
     draw ctx, step:
       canvasScale = min(win.width div 128, win.height div 96).float
